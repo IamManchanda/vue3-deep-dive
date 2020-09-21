@@ -6,7 +6,7 @@ export default {
     return h(
       "div",
       {
-        id: "hello",
+        id: "hello-render",
       },
       [h("span", "Hello Render World")],
     );
