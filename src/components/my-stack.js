@@ -2,7 +2,10 @@
 
 export default {
   props: {
-    size: Number,
+    size: {
+      type: Number,
+      default: 1,
+    },
   },
   name: "MyStack",
   render() {
