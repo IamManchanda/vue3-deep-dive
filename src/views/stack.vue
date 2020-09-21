@@ -1,26 +1,26 @@
 <template>
   <div class="page-stack">
-    <my-stack size="1">
+    <my-stack-jsx size="1">
       <div>Hello</div>
-      <my-stack size="2">
+      <my-stack-jsx size="2">
         <div>Hello</div>
         <div>Hello</div>
-        <my-stack size="3">
+        <my-stack-jsx size="3">
           <div>Hello</div>
           <div>Hello</div>
-        </my-stack>
-      </my-stack>
-    </my-stack>
+        </my-stack-jsx>
+      </my-stack-jsx>
+    </my-stack-jsx>
   </div>
 </template>
 
 <script>
-import MyStack from "@/components/my-stack";
+import MyStackJsx from "@/components/my-stack-jsx";
 
 export default {
   name: "PageStack",
   components: {
-    MyStack,
+    MyStackJsx,
   },
 };
 </script>
