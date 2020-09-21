@@ -1,11 +1,11 @@
 export default {
+  name: "MyStackJsx",
   props: {
     size: {
       type: Number,
       default: 1,
     },
   },
-  name: "MyStackJsx",
   render() {
     const slot = this.$slots.default ? this.$slots.default() : [];
     return (

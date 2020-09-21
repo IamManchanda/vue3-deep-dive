@@ -1,11 +1,11 @@
 <template>
   <div class="page-stack">
-    <my-stack-jsx size="1">
+    <my-stack-jsx :size="1">
       <div>Hello</div>
-      <my-stack-jsx size="2">
+      <my-stack-jsx :size="2">
         <div>Hello</div>
         <div>Hello</div>
-        <my-stack-jsx size="3">
+        <my-stack-jsx :size="3">
           <div>Hello</div>
           <div>Hello</div>
         </my-stack-jsx>

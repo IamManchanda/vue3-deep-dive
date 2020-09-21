@@ -1,13 +1,13 @@
 import { h } from "vue";
 
 export default {
+  name: "MyStack",
   props: {
     size: {
       type: Number,
       default: 1,
     },
   },
-  name: "MyStack",
   render() {
     const slot = this.$slots.default ? this.$slots.default() : [];
     return h(
