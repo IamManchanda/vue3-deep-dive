@@ -1,7 +1,7 @@
 import { h } from "vue";
 
 export default {
-  name: "HelloWorldRender",
+  name: "RenderFn",
   render() {
     return h(
       "div",
