@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
-import PageHome from "../views/index.vue";
+import PageIndex from "../views/index.vue";
 
 const routes = [
   {
     path: "/",
-    name: "PageHome",
-    component: PageHome,
+    name: "PageIndex",
+    component: PageIndex,
+  },
+  {
+    path: "/stack",
+    name: "PageStack",
+    component: () =>
+      import(/* webpackChunkName: "page-stack" */ "../views/stack.vue"),
   },
 ];
 

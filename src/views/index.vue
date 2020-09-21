@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="page-index">
     <div>
       <hello-world-render />
       <hr />
@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import HelloWorldRender from "@/components/hello-world/render.js";
-import HelloWorldRenderWithJsx from "@/components/hello-world/render-with-jsx.js";
+import HelloWorldRender from "@/components/hello-world/render";
+import HelloWorldRenderWithJsx from "@/components/hello-world/render-with-jsx";
 
 export default {
-  name: "PageHome",
+  name: "PageIndex",
   components: {
     HelloWorldRender,
     HelloWorldRenderWithJsx,
